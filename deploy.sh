@@ -16,5 +16,5 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push origin master
-git subtree push --prefix=public git@github.com:timulato/timulato.github.io.git gh-pages
+git push origin website
+git subtree push --prefix=public git@github.com:timulato/timulato.github.io.git master
