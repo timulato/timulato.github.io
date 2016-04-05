@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tiago Mulato de Carvalho – Terapeuta Oriental</title>
-    <link>http://jxonas.github.io/terapeuta-oriental/</link>
+    <link>http://timulato.github.io/</link>
     <description>Recent content on Tiago Mulato de Carvalho – Terapeuta Oriental</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <atom:link href="http://jxonas.github.io/terapeuta-oriental/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://timulato.github.io/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
