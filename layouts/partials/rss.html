@@ -1,0 +1,38 @@
+<section class="bg-dark" id="rss">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.rss.headline }}{{ . }}{{ end }}</h2>
+        <hr class="light">
+        <p class="text-faded">{{ with .Site.Params.rss.description }}{{ . | markdownify }}{{ end }}</p>
+
+        <div id="rss-list" class="text-left list-group">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script src="https://cdn.rawgit.com/richardkazuomiller/feednami-client/master/releases/1.0.2.min.js"></script>
+<script>
+
+ var  tpl = `<a class="list-group-item"  href="zzz" target="_blank">yyy</a>`;
+
+ var url = '{{ with .Site.Params.rss.url }}{{ . }}{{ end }}'
+ feednami.load(url,function(result){
+   if(result.error){
+     console.log(result.error)
+   }
+   else{
+     var nodeList = document.getElementById("rss-list");
+     var entries = result.feed.entries;
+     for(var i = 0; i < entries.length && i < {{ with .Site.Params.rss.entries }}{{ . }}{{ end }}; i++){
+       var entry = entries[i]
+       nodeList.innerHTML += tpl.replace(/xxx/g, i).replace(/yyy/g, entry.title).replace(/zzz/g, entry.link);
+     }
+   }
+ })
+</script>

@@ -1,0 +1,103 @@
+baseurl = "http://timulato.github.io/"
+languageCode = "pt-br"
+title = "Tiago Mulato de Carvalho – Terapeuta Oriental"
+
+[params]
+
+name = "Tiago Mulato de Carvalho"
+description = "Terapeuta Oriental"
+
+favicon = "favicon.png"
+
+[params.navigation]
+brand = "Terapeuta Oriental"
+
+[params.navigation.links]
+services  = "Técnicas"
+portfolio = "Saiba Mais"
+about     = "Sobre"
+contact   = "Contato"
+blog      = "Blog"
+
+# Hero section
+[params.hero]
+slogan     = "Terapia Oriental"
+subtitle   = "A busca pela conexão consigo mesmo nos dias atuais parece cada vez mais distante. Dê o tempo para as melhores experiências de relaxamento acontecerem."
+buttonText = "Técnicas"
+
+# About section
+[params.about]
+headline    = "Tiago Mulato de Carvalho"
+description = "Atua na área Oriental há 10 anos, praticante de Yoga e Meditação há 5 anos, inclui em seus tratamentos a visão holística do ser, entendendo que a base da saúde é o autoconhecimento."
+buttonText  = "Profissional"
+
+# Service section
+[params.services]
+headline = "Técnicas"
+
+[[params.services.list]]
+icon = "fa-circle-o"
+title = "Acupuntura"
+class = "Acupuntura"
+description = ""
+
+[[params.services.list]]
+icon = "fa-spinner"
+title = "Fitoterapia"
+class = "Fitoterapia"
+description = ""
+
+[[params.services.list]]
+icon = "fa-circle-o"
+title = "Ventosaterapia"
+class = "Ventosaterapia"
+description = ""
+
+[[params.services.list]]
+icon = "fa-circle-o"
+title = "Moxabustão"
+class = "Moxabustao"
+description = ""
+
+[[params.services.list]]
+icon = "fa-spinner"
+title = "Auriculoterapia"
+class = "Auriculoterapia"
+description = ""
+
+[[params.services.list]]
+icon = "fa-spinner"
+title = "Terapia Floral"
+class = "TerapiaFloral"
+description = ""
+
+[params.portfolio]
+headline = "Saiba Mais"
+
+# Portfolio modals
+[params.portfolio.modal]
+client = "Cliente"
+date = "Data"
+category = "Categoria"
+buttonText = "Fechar"
+
+# Aside section
+[params.aside]
+headline = "Invista em você!"
+
+[params.aside.button]
+text = "Agende uma seção"
+link = "#contact"
+
+# Contact section
+[params.contact]
+headline = "Invista em você mesmo. Agende uma seção!"
+description = "Pronto para começar? Excelente! Entre em contato conosco ou nos envie um email que lhe retornaremos o mais rápido possível."
+phone = "(019) 99279-4857"
+email = "timulato@hotmail.com"
+
+[params.rss]
+url = "http://blog.autoconexao.org.br/authors/tiago-mulato/index.xml"
+entries = 6
+headline = "Espaço Autoconexão"
+description = "Confira os artigos que publiquei no blog do <a target='_blank' href='http://blog.autoconexao.org.br'>Autoconexão</a>"
