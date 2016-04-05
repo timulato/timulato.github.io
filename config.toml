@@ -86,12 +86,12 @@ buttonText = "Fechar"
 headline = "Invista em você!"
 
 [params.aside.button]
-text = "Agende uma seção"
+text = "Agende uma sessão"
 link = "#contact"
 
 # Contact section
 [params.contact]
-headline = "Invista em você mesmo. Agende uma seção!"
+headline = "Invista em você mesmo. Agende uma sessão!"
 description = "Pronto para começar? Excelente! Entre em contato conosco ou nos envie um email que lhe retornaremos o mais rápido possível."
 phone = "(019) 99279-4857"
 email = "timulato@hotmail.com"
