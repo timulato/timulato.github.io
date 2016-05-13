@@ -17,5 +17,4 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin website
-git push origin `git subtree split --prefix public website`:master --force
-#git subtree push --prefix=public git@github.com:timulato/timulato.github.io.git master
+git subtree push --prefix=public git@github.com:timulato/timulato.github.io.git master
